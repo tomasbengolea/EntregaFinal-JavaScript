@@ -1,0 +1,135 @@
+body {
+    background-color: #FFE6BE;
+}
+h1{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/* NAVBAR */
+nav, .offcanvas {
+    background-color: #ca8279;
+}
+.offcanvas-body {
+    background-color: #FFE6BE;
+}
+.navbar-toggler {
+    color: #FFE6BE;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+.navbar-toggler:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-color: #FFE6BE;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: #FFE6BE;
+}
+.navbar-brand:hover {
+    transition: 0.5s;
+    color: #62192d;
+}
+.offcanvas-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFE6BE;
+}
+#offcanvasNavbar {
+    width: 800px;
+}
+
+
+.tabla {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+}
+
+
+.btn_com_elim {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.eliminar_btn {
+    width: 200px;
+    height: 40px;
+    background-color: #FFE6BE;
+    color: #62192d;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.eliminar_btn:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-color: red;
+}
+.comprar_btn {
+    width: 200px;
+    height: 40px;
+    background-color: #FFE6BE;
+    color: #62192d;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.comprar_btn:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+    border-color: green;
+}
+
+
+/* PRODUCTOS */
+.contenedorTarjetas {
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.tarjetas {
+    background-color: antiquewhite;
+    border: 3px solid #b48989;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.btn_agregar {
+    width: 70%;
+    align-self: center;
+    background-color: #ca8279;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFE6BE;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.btn_agregar:hover {
+    width: 100%;
+    transition: 0.5s;
+}
+
+
+/* Alert */
+.sweet-title {
+    font-size: 30px;
+    font-weight: 900;
+}
